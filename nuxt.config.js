@@ -40,6 +40,10 @@ module.exports = {
     dir: 'docs'
   },
 
+  router: {
+    base: '/tasks-board/'
+  },
+
   plugins: [{ src: "~/plugins/persistedstate.js", ssr: false }]
 }
 
