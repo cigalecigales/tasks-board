@@ -36,6 +36,10 @@ module.exports = {
     }
   },
 
+  generate: {
+    dir: 'docs'
+  },
+
   plugins: [{ src: "~/plugins/persistedstate.js", ssr: false }]
 }
 
