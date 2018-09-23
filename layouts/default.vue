@@ -29,6 +29,12 @@ html, body {
 .plane {
   height: 100%;
 }
+#__nuxt {
+  height: 100%;
+}
+#__layout {
+  height: 100%;
+}
 
 // 入力欄
 .commonInput {
