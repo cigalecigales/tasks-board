@@ -2,7 +2,17 @@
 
 KANBAN tasks board.<br>
 
-[demo](https://cigalecigales.github.io/tasks-board/)
+🌸 [**DEMO(click here)**](https://cigalecigales.github.io/tasks-board/)
+
+You can do this ...
+
+* add a task
+* update a task
+* delete a task
+* drag a task
+* sort by limit desc
+
+![sample image](https://user-images.githubusercontent.com/7352476/45930112-86101280-bf96-11e8-8b1f-5bbffb777364.png)
 
 ## Build Setup
 
