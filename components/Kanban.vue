@@ -62,6 +62,8 @@ export default {
   background: #ffffff;
   padding: 10px;
   width: calc(100% - 10px);
+  min-width: calc(100% - 10px);
+  max-width: calc(100% - 10px);
   min-height: initial;
   height: initial;
 

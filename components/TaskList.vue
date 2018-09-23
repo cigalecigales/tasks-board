@@ -74,14 +74,16 @@ export default {
 <style lang="scss" scoped>
 .container {
   box-sizing: border-box;
-  min-height: calc(95vh - 10px);
-  height: calc(95vh - 10px);
+  min-height: calc(100% - 10px);
+  height: calc(100% - 10px);
   border-radius: 5px;
   width: 25%;
+  max-width: 320px;
+  min-width: 320px;
   background: #e4e4e4;
   margin: 5px;
   border: 1px solid #d8d8d8;
-  float: left;
+  display: inline-block;
 
   .title {
     background: #d6d6d6;

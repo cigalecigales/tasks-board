@@ -1,5 +1,5 @@
 <template lang="pug">
-  div
+  div.plane
     App
 </template>
 
@@ -46,8 +46,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
-  
-}
+
 </style>
 

@@ -1,7 +1,6 @@
-<template>
-  <div>
-    <nuxt/>
-  </div>
+<template lang="pug">
+  div.plane
+    nuxt.plane
 </template>
 
 <style lang="scss">
@@ -18,11 +17,17 @@ html, body {
   margin: 0;
   background: #f3f3f3;
   color: #2b2b2b;
+  width: 100%;
+  height: 100%;
 }
 
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.plane {
+  height: 100%;
 }
 
 // 入力欄

@@ -1,8 +1,10 @@
 <template lang="pug">
-    div.container
+    div.container.plane
         HeaderMenu
-        div(v-for="board in this.$store.state.boards")
-            TaskList(:board="board")
+        div.tasksContainer
+            div.tasks
+                div.task(v-for="board in this.$store.state.boards")
+                    TaskList(:board="board")
         AddKanban(v-if="this.$store.state.add_kanban.modal")
         KanbanDetails(v-if="this.$store.state.kanban_details.modal")
 </template>
@@ -24,5 +26,20 @@ export default {
 
 
 <style lang="scss" scoped>
+.tasksContainer {
+    width: 100%;
+    overflow-x: scroll;
+    height: calc(100% - 40px);
+}
 
+.tasks {
+    display: inline-block;
+    white-space: nowrap;
+    height: 100%;
+}
+
+.task {
+    display: inline-block;
+    height: 100%;
+}
 </style>
