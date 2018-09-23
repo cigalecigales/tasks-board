@@ -1,5 +1,5 @@
 <template lang="pug">
-    div.container.plane
+    div.container
         HeaderMenu
         div.tasksContainer
             div.tasks
@@ -29,17 +29,14 @@ export default {
 .tasksContainer {
     width: 100%;
     overflow-x: scroll;
-    height: calc(100% - 40px);
 }
 
 .tasks {
     display: inline-block;
     white-space: nowrap;
-    height: 100%;
 }
 
 .task {
     display: inline-block;
-    height: 100%;
 }
 </style>

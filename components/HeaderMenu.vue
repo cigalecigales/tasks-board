@@ -18,8 +18,8 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-    min-height: 40px;
-    line-height: 40px;
+    min-height: 5vh;
+    line-height: 5vh;
     width: 100%;
     background: rgb(177, 177, 177);
 

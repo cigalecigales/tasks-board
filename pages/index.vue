@@ -1,5 +1,5 @@
 <template lang="pug">
-  div.plane
+  div
     App
 </template>
 
