@@ -14,6 +14,10 @@ You can do this ...
 
 ![sample image](https://user-images.githubusercontent.com/7352476/45930112-86101280-bf96-11e8-8b1f-5bbffb777364.png)
 
+## System Requirements
+* Chrome (PC)
+* Safari (PC)
+
 ## Build Setup
 
 ``` bash
@@ -22,7 +26,7 @@ $ npm install # Or yarn install
 
 # serve with hot reload at localhost:3000
 $ npm run dev
-# open http://localhost:3000/tasls-board/
+# open http://localhost:3000/tasks-board/
 
 # build for production and launch server
 $ npm run build
